@@ -4,7 +4,8 @@ public class MyProgram {
     }
 
     public static void twoBiggest() {
-        int[] arr = {5, 6, 17, 1};
+        // Updated: Added 22 to the array to test with larger numbers
+        int[] arr = {5, 6, 17, 1, 22};
 
         int max = Integer.MIN_VALUE;
         int secondMax = Integer.MIN_VALUE;
@@ -23,5 +24,7 @@ public class MyProgram {
 
         System.out.println("Biggest: " + max);
         System.out.println("Second biggest: " + secondMax);
+        // New feature: Display the size of the array
+        System.out.println("Array size: " + arr.length);
     }
 }
